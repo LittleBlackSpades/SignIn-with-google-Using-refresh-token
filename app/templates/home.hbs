@@ -1,0 +1,12 @@
+<div>
+    <h1>Hello All ! Welcome to Play</h1>
+    <h2>{{error}} hello</h2>
+    <h3>{{User}}</h3>
+</div>
+<div>
+    <p>User Information from Google:</p>
+    <p>ID: {{model.googleUserInfo.resourceName}}</p>
+    <p>Name: {{model.googleUserInfo.names.[0].displayName}}</p>
+    <p>Email: {{model.googleUserInfo.emailAddresses.[0].value}}</p>
+</div>
+{{outlet}}

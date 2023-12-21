@@ -1,0 +1,25 @@
+    <div class="container">
+      <form action="#">
+        <div class="title">Sign in</div>
+        <div class="input-box underline">
+          <input type="text" placeholder="Enter Your Email" required>
+          <div class="underline"></div>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Enter  Password" required>
+          <div class="underline"></div>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Confirm Password" required>
+            <div class="underline"></div>
+          </div>
+        <div class="input-box button">
+          <input type="submit" name="" value="Continue">
+        </div>
+      </form>
+        <div class="option">or with</div>
+        <div class="google">
+          <a href="#" {{action 'signIn'}}>Sign in With Google</a>
+        </div>
+    </div>
+{{outlet}}
